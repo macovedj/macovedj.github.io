@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-let moment = require('moment');
-let momentDurationFormatSetup = require("moment-duration-format");
+import * as moment from 'moment';
+import * as momentDurationFormatSetup from 'moment-duration-format';
 
 let lastTime = performance.now();
 let relativisticPhotonTime = 0;
