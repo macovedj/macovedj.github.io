@@ -1,6 +1,6 @@
-import * as THREE from 'three';
 import * as moment from 'moment';
 import * as momentDurationFormatSetup from 'moment-duration-format';
+import * as THREE from './threeRelativity/js/three';
 
 let lastTime = performance.now();
 let relativisticPhotonTime = 0;
