@@ -1,5 +1,5 @@
-import * as moment from 'moment';
-import * as momentDurationFormatSetup from 'moment-duration-format';
+import * as moment from './node_modules/moment';
+import * as momentDurationFormatSetup from './node_modules/moment-duration-format';
 import * as THREE from './threeRelativity/js/three';
 
 let lastTime = performance.now();
